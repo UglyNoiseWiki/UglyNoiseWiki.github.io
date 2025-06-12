@@ -2,7 +2,7 @@
   <body>
     <img src="./images/title.webp" alt="The Ugly Noise Wiki">
     <br>
-    <input id="search" placeholder="Search..." list="pages"> <input type="button" value="Go to page" onclick="document.location.href = window.location.origin + window.location.pathname;">
+    <input id="search" placeholder="Search..." list="pages"> <input type="button" value="Go to page" onclick="document.location.href = window.location.origin + window.location.pathname + "?page=" + document.getElementById("search").value;">
     <datalist>
       <option value="home">
     </datalist>
